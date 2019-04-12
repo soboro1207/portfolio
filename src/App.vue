@@ -4,9 +4,26 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
-    <router-view/>
+    <Header/>
+    <!-- <HelloWorld/> -->
+    <!-- <router-view/> -->
   </div>
 </template>
+
+<script>
+// ./componentsに配置したコンポーネント(.vueファイル)をimportする
+// 赤字のところがtemplateタグ内で呼び出すタグ名になる、だいたい同じにしておく
+  import Header from './components/Header.vue'
+//  import HelloWorld from './components/HelloWorld.vue'
+
+// ここに書く
+  export default {
+    components: {
+      Header
+//      HelloWorld
+    }
+  }
+</script>
 
 <style>
 #app {

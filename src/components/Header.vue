@@ -2,8 +2,7 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <i class="material-icons">dehaze</i>
-        <h1>{{ miss }}</h1>
+        <i class="material-icons">dehaze</i><br>
         <span class="mdl-layout-title">GIPHY-VUE</span>
         <br>
         <el-button type="primary" icon="el-icon-edit"></el-button>
