@@ -1,26 +1,23 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <Header/>
-    <!-- <HelloWorld/> -->
-    <!-- <router-view/> -->
+    <ButtonGroup/>
   </div>
 </template>
 
 <script>
 // ./componentsに配置したコンポーネント(.vueファイル)をimportする
-// 赤字のところがtemplateタグ内で呼び出すタグ名になる、だいたい同じにしておく
+// 赤字のところが上のtemplateタグ内で呼び出すnameになる
   import Header from './components/Header.vue'
-//  import HelloWorld from './components/HelloWorld.vue'
+  import Hello from './components/HelloWorld.vue'
+  import ButtonGroup from './components/ButtonGroup.vue'
 
-// ここに書く
+// ここでエクスポートする
   export default {
     components: {
       Header
-//      HelloWorld
+    , Hello
+    , ButtonGroup
     }
   }
 </script>
@@ -32,6 +29,6 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 0px;
 }
 </style>
