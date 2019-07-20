@@ -13,10 +13,12 @@
   "dependencies": {
     "@babel/core": "^7.5.4",
     "@typescript-eslint/eslint-plugin": "^1.12.0",
+    "@typescript-eslint/parser": "^1.12.0",
     "element-ui": "^2.10.1",
     "handlebars": "^4.0.14",
     "jest": "^24.8.0",
     "kleur": "^3.0.3",
+    "lodash": "^4.17.13",
     "lodash.defaultsdeep": "^4.6.1",
     "register-service-worker": "^1.6.2",
     "socks": "2.3.2",
