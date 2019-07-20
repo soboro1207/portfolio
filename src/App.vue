@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Header/>
-    <ButtonGroup/>
+    <!-- <ButtonGroup/> -->
   </div>
 </template>
 
@@ -9,15 +9,14 @@
 // ./componentsに配置したコンポーネント(.vueファイル)をimportする
 // 赤字のところが上のtemplateタグ内で呼び出すnameになる
   import Header from './components/Header.vue'
-  import Hello from './components/HelloWorld.vue'
-  import ButtonGroup from './components/ButtonGroup.vue'
+//  import Hello from './components/HelloWorld.vue'
+//  import ButtonGroup from './components/ButtonGroup.vue'
 
 // ここでエクスポートする
+// エクスポートするのはここだけ？
   export default {
     components: {
       Header
-    , Hello
-    , ButtonGroup
     }
   }
 </script>
